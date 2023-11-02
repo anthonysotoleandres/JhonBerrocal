@@ -4,7 +4,7 @@
     class AdminM extends ConexionBD{
         public function IngresoM($datosC){
             $cBD = $this->conectarBD();
-            $tablaBD = "docentes";
+            $tablaBD = "administracion";
 
             
            
@@ -52,7 +52,7 @@
                     if (password_verify($pw_temp, $row[4])) 
                     {   
                         $query = "SELECT * FROM $tablaBD 
-                        WHERE dni='$un_temp' AND iddocentes ='$row[0]'";
+                        WHERE dni='$un_temp' AND idadministracion ='$row[0]'";
                         $result = $cBD->query($query);
                         return $row[0];
                     }

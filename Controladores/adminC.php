@@ -13,7 +13,7 @@ class AdminC {
         if (isset($_POST["usuarioI"])) {
             $datosC = array(
                 "usuario" => $_POST["usuarioI"],
-                "contraseña" => $_POST["claveI"],
+                "contraseña" => $_POST["contraseñaI"],
                 "perfil" => $_POST["perfilI"]
             );
 
@@ -38,7 +38,7 @@ class AdminC {
 
         return true;
     }
-
+ 
     public function salirC() {
         ob_start();
         session_destroy();

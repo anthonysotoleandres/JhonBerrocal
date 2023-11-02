@@ -4,20 +4,13 @@ class RutasM{
         if( $ruta == "ingreso" || 
             $ruta == 'dashboard' ||
             $ruta == 'salir' ||
-            $ruta == 'registroestudiantes' ||
-            $ruta == 'matriculaestudiantes' ||
-            $ruta == 'matriculatotal' ||
-            $ruta == 'reporte_matricula' ||
-            $ruta == 'plan_estudio' ||
-            $ruta == 'horario' ||
-            $ruta == 'reporte_estudiantes' ||
-            $ruta == 'registro_docentes' ||
-            $ruta == 'reporte_docentes' ||
-            $ruta == 'registro_cursos' ||
-            $ruta == 'boleta_matricula' ||
-            $ruta == 'estudiante_matricula' ||
-            $ruta == 'ficha_matricula' ||
-            $ruta == 'perfil_estudiantes' ||
+            $ruta == 'registro_estudiantes' ||
+            $ruta == 'realizar_nueva_matricula' ||
+            $ruta == 'realizar_matricula' ||
+            $ruta == 'reporte_estudiantesI' ||
+            $ruta == 'recuperar_contraseña' ||
+            $ruta == 'reporte_estudiantes_registrados' ||
+
 
             $ruta == 'perfil')
         {
